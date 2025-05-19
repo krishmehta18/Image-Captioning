@@ -12,12 +12,17 @@ The model takes an image as input and generates a relevant caption that describe
 # How It Works
 
 Preprocessing:
+
  Captions are cleaned, tokenized, and padded
+ 
  Images are resized and converted to feature vectors using a CNN
  
 Model Architecture:
+
  CNN Encoder: Extracts a fixed-length feature vector from an image
+ 
  LSTM Decoder: Takes the feature vector and generates a sequence of words
  
 Training:
+
  Trained on a dataset like Flickr8k
